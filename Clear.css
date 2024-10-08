@@ -1,0 +1,297 @@
+
+
+/* Global Styles */
+body,html {
+    font-family: Arial, sans-serif;
+    font-size:large;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+/* Gradient Effect */
+  .logo {
+    background: linear-gradient(to bottom, #333, #666);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+/*Word Spacing*/
+    .logo {
+        word-spacing: 10px;
+        }
+
+       /*Text Align*/
+    .logo {
+       text-align: left;
+       font-size: 35px;
+       font-style: italic, bold;
+       font-family: 'Times New Roman';
+      text-decoration: solid;
+       }
+       
+       /*Text Color*/
+       .logo {
+       color: #333;
+       }
+       
+        /* Text Transform*/
+        .logo {
+        text-transform: lowercase;
+        }
+        
+        /* Text Shadow */
+    .logo {
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+        }
+        
+        /*Responsive Design*/
+        @media (max-width: 768px) {
+            .logo {
+            font-size: 24px;
+            }
+            }
+   
+    /* Navbar Styles */
+    .navbar {
+    background-color: #50a5b1;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+    }
+    
+    
+    .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    
+  
+    
+     /* Featured Movies Section Styles */
+    .featured-movies {
+    background-image: url('action-movie-5120-x-2880-wallpaper-rfjaete2qgen05tn.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    }
+    
+    .featured-movies {
+        padding: 2em;
+        }
+        
+        
+        .featured-movies ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+        
+        
+        .featured-movies li {
+        margin: 20px;
+        width: calc(33.33% - 20px);
+        }
+          
+          .featured-movies img {
+            width: 200px; 
+            height: 250px; 
+            object-fit: cover; 
+            border-radius: 10px; 
+            margin: 10px;
+            transition: transform 0.2s ease;
+          }
+          
+          .featured-movies img:hover {
+            transform: scale(1.1);
+          }
+        
+        .featured-movies h3 {
+        font-size: 18px;
+        margin-top: 10px;
+        }
+        
+        
+        .featured-movies p {
+        font-size: 14px;
+        color: #666;
+        }
+        
+
+      /* Hero Section Styles */
+      .hero h1 {
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        
+        .hero p {
+        font-size: 24px;
+        margin-bottom: 40px;
+        padding-top: 39px;
+        padding-left: 20px;
+        }
+        
+        
+        /*.get-started {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 15px 30px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        }
+        
+        
+        .get-started:hover {
+        background-color: #555;
+        }
+        
+        
+       /* Responsive Design
+        
+        
+        @media (max-width: 768px) {
+        .hero {
+        height: 50vh;
+        }
+        .hero h1 {
+        font-size: 36px;
+        }
+        .hero p {
+        font-size: 18px;
+        }
+        }*/
+        
+        .get-started:hover {
+        background-color: #555;
+        }
+
+        .hero {
+            background-image: url('678085.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            color: #fff;
+            text-align: left;
+            padding-left: 100px;
+            }
+            
+            
+            .get-started {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 20px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+            text-decoration: none;
+            }
+
+            /*Responsive Design*/
+
+
+@media (max-width: 768px) {
+.hero {
+padding-left: 20px;
+}
+.get-started {
+font-size: 16px;
+padding: 10px 20px;
+}
+}
+
+            
+    
+    /* Latest Releases Section Styles */
+    .latest-releases {
+        background-image: url('x-men-movie-the-last-stand-character-qarw37a1ebc4bs2t.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        }
+    
+    .latest-releases {
+    padding: 10em;
+    }
+    
+    
+    .latest-releases ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    
+    .latest-releases li {
+    margin: 20px;
+    width: calc(33.33% - 20px);
+    }
+    
+    
+   .latest-releases img {
+  width: 250px; 
+  height: 260px; 
+  object-fit: cover; 
+  border-radius: 15px; 
+  margin: 10px;
+  transition: transform 0.2s ease;
+}
+
+.latest-releases img:hover {
+  transform: scale(1.1);
+}
+    
+    .latest-releases h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    }
+    
+    
+    .latest-releases p {
+    font-size: 14px;
+    color: #666;
+    }
+     
+    /* Footer Styles */
+    
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+    }
+    
